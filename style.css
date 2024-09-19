@@ -1,0 +1,70 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.bg-gradient-nav {
+    background: linear-gradient(45deg, #0062E6, #33AEFF);
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #00B4DB, #0083B0);
+    height: 100vh;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Gradient for Text */
+.text-gradient {
+    background: -webkit-linear-gradient(45deg, #FF416C, #FF4B2B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* About Section */
+.icon-box {
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.icon-box:hover {
+    transform: translateY(-10px);
+}
+
+.icon-box i {
+    transition: color 0.3s;
+}
+
+.icon-box:hover i {
+    color: #33AEFF;
+}
+
+/* Gradient Text for Icons */
+.gradient-text {
+    background: linear-gradient(45deg, #FF416C, #FF4B2B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Papers Section */
+.bg-gradient-paper {
+    background: linear-gradient(120deg, #3a6186, #89253e);
+    color: white;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: #fff;
+}
